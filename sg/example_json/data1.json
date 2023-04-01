@@ -1,0 +1,37 @@
+{
+    "students": 
+  
+      {
+        "name": {
+            "d_type": "VARCHAR(255)",
+            "constraints": "NOT NULL"
+        },
+        "prn": {
+            "d_type": "INTEGER",
+            "constraints": "NOT NULL"
+        }
+        
+      },
+    "professor": 
+    {
+    "name": {
+        "d_type": "VARCHAR(255)",
+        "constraints": "UNIQUE"
+    },
+    "prof_id": {
+        "d_type": "INTEGER",
+        "constraints": "NOT NULL"
+    }
+    },
+    "college": 
+    {
+    "name": {
+        "d_type": "VARCHAR(255)",
+        "constraints": "UNIQUE"
+    },
+    "coll_id": {
+        "d_type": "INTEGER",
+        "constraints": "NOT NULL"
+    }
+    }
+  }
