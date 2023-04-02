@@ -14,3 +14,10 @@ your project
 
 
 Use the code givnen in schema.py to run
+sg.main import main
+main('json_file_source', 'path_to_store_db_file')
+
+Example
+main('src', 'dist')
+
+You can use json from example_json folder
